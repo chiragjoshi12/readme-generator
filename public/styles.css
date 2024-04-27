@@ -1,0 +1,114 @@
+body {
+    background-color: #1e1e1e;
+    color: #f8f8f2;
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #66d9ef;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.file-input {
+    margin-bottom: 20px;
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.file-name, .file-code {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #383838;
+    color: #f8f8f2;
+    border: none;
+    border-radius: 5px;
+}
+
+.file-code {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: #66d9ef;
+    color: #282828;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #80cbb1;
+}
+
+#generated-readme {
+    background-color: #383838;
+    color: #f8f8f2;
+    padding: 20px;
+    margin-top: 20px;
+    white-space: pre-wrap;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Additional styles for a more technical look */
+.container {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.file-input, .file-name, .file-code, button, #generated-readme {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.file-name, .file-code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    font-family: 'Fira Code', monospace;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e1e1e;
+    color: #f8f8f2;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+.delete-file {
+    background-color: #ff69b4;
+    color: #282828;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.delete-file:hover {
+    background-color: #ff80d4;
+}
