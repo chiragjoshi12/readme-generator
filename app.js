@@ -18,7 +18,7 @@ app.post('/generate-readme', async (req, res) => {
     const fetch = (await import('node-fetch')).default;
 
     // Make a POST request to the Flask API
-    const response = await fetch('http://127.0.0.1:5000/generate-readme', {
+    const response = await fetch('https://readme-back.onrender.com/generate-readme', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
