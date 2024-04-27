@@ -1,5 +1,7 @@
 # README Generator Project
 
+![Demo Img](/demo/img1.png)
+
 ## 🚀 Project Overview
 
 Welcome to the README Generator project! This innovative tool is designed to streamline the process of creating README files for software projects. By leveraging the power of generative AI, it allows users to input a brief description of their project, including its purpose, features, and technical details, and generates a well-structured and informative README.md file following best practices.
