@@ -1,0 +1,6 @@
+gunicorn
+google-generativeai
+dotenv
+python-dotenv
+flask
+flask_httpauth
