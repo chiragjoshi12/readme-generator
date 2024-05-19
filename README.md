@@ -1,6 +1,6 @@
 # README Generator Project
 
-![Demo Img](/demo/img1.png)
+![Demo Img](/preview/img1.png)
 
 ## 🚀 Project Overview
 
