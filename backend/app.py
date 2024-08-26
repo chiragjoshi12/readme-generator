@@ -5,11 +5,9 @@ import google.generativeai as genai
 
 app = Flask(__name__)
 
-# Load API key from .env file
 load_dotenv()
 API_KEY = os.getenv("GENERATIVE_AI_API_KEY")
 
-# Initialize the generative AI model
 genai.configure(api_key=API_KEY)
 
 generation_config = {
@@ -47,16 +45,12 @@ model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest",
 
 @app.route('/generate-readme', methods=['POST'])
 def generate_readme():
-    # Get input prompt from request
-    user_input = request.json['files']  # Assuming 'files' is a list of dictionaries containing file name and code
+    user_input = request.json['files']
     
-    # Constructing prompt from user input
     prompt_template = "\n".join([f"{file['name']}:\n{file['code']}\n" for file in user_input])
     
-    # Start chat with the model
     convo = model.start_chat(history=[{"role": "user", "parts": [prompt_template + "Generate one readme.md file"]}])
     
-    # Generate README.md
     convo.send_message(prompt_template)
     generated_readme = convo.last.text
     
