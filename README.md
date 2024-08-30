@@ -67,10 +67,10 @@ Feel free to contribute and improve this project! 🚀
 
 ## 📧 Contact
 
-If you have any questions or suggestions, feel free to reach out to Chirag Joshi at ai.chiragjoshi@gmail.com.
+If you have any questions or suggestions, feel free to reach out to Chirag Joshi at chirag.edutorai@gmail.com.
 
 ---
 
-Made with ❤️ by [Chirag Joshi](https://github.com/chiragg-ai)
+Made with ❤️ by [Chirag Joshi](https://github.com/chiragjoshi12)
 
 Thank you for using the README GPT 🤖!
