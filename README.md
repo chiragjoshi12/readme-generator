@@ -2,6 +2,8 @@
 
 ![Demo Img](/preview/img1.png)
 
+<a href="https://www.producthunt.com/posts/readme-generator?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-readme&#0045;generator" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=483541&theme=light" alt="README&#0032;Generator - Effortless&#0032;Generative&#0032;AI&#0045;Powered&#0032;README&#0032;Generation | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 ## 🚀 Project Overview
 
 Welcome to the README Generator project! This innovative tool is designed to streamline the process of creating README files for software projects. By leveraging the power of generative AI, it allows users to input a brief description of their project, including its purpose, features, and technical details, and generates a well-structured and informative README.md file following best practices.
